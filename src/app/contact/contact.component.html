@@ -1,0 +1,24 @@
+<div class="center-div">
+  <form>
+    <label>Name</label>
+    <br />
+    <input
+      class="input"
+      type="text"
+      (change)="getName(name.value)"
+      #name
+      required
+    />
+    <br />
+    <label>Email</label>
+    <br />
+    <input class="input" type="email" required />
+    <br />
+    <br />
+    <img src="" alt="file" width="200px" height="200px" />
+    <br />
+    <input type="file" (change)="getFile($event)" required />
+    <br />
+    <button class="upload-btn" (click)="submitData()">upload and submit</button>
+  </form>
+</div>

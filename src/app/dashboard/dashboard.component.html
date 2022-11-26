@@ -1,0 +1,25 @@
+<div class="grid-container">
+  <h1 class="mat-h1">kerala Rythms</h1>
+  <mat-grid-list cols="2" rowHeight="350px">
+    <mat-grid-tile
+      *ngFor="let card of cards | async"
+      [colspan]="card.cols"
+      [rowspan]="card.rows"
+    >
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+          <mat-card-title> kerala Rythms </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          Kerala, a state on India's tropical Malabar Coast, has nearly 600km of
+          Arabian Sea shoreline. It's known for its palm-lined beaches and
+          backwaters, a network of canals Inland are the Western Ghats,
+          mountains whose slopes support tea, coffee and spice plantations as
+          well as wildlife. National parks like Eravikulam and Periyar, plus
+          Wayanad and other sanctuaries, are home to elephants, langur monkeys
+          and tigers.
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

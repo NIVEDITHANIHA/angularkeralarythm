@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 5px 6px rgb(211, 205, 205);
+  height: 100px;
+  width: 350px;
+  margin-left: 400px;
+}
+.pic {
+  height: 80px;
+  width: 100px;
+  margin-left: 30px;
+  border-radius: 100%;
+}
+.main h1 {
+  padding-left: 60px;
+  font-weight: bolder;
+  font-size: 2.2rem;
+}
+.main h1 span {
+  color: orchid;
+}
+
+.shans {
+  margin-top: 25px;
+  border: 1px solid whitesmoke;
+  height: 300px;
+  width: 400px;
+  margin-left: 370px;
+  box-shadow: 0 5px 6px rgb(211, 205, 205);
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding-right: 200px;
+  margin-left: 100px;
+}
+.label {
+  font-weight: bolder;
+  padding: 8px;
+}
+.input {
+  width: 350px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(216, 211, 211);
+  outline-style: none;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orchid;
+  height: 3rem;
+  padding-right: 300px;
+  color: black;
+  border-radius: 2px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding-right: 300px;
+  background-color: whitesmoke;
+  height: 60px;
+  border-radius: 3px;
+}
+.btn {
+  background-color: orchid;
+  width: 100rem;
+  height: 2.5rem;
+  border: none;
+}

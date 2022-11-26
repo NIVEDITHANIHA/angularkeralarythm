@@ -1,0 +1,16 @@
+ <table>
+    <thead>
+        <th>position</th>
+        <th>name</th>
+        <th>popular</th>
+        <th>symbol</th>
+    </thead>
+
+    <tbody *ngFor="let data of data" >
+        <td>{{data.position}}</td>
+        <td>{{data.name}}</td>
+        <td>{{data.popular}}</td>
+        <td>{{data.symbol}}</td>
+        <button class="btn btn-warning" (click)="onSubmit()">View</button>
+    </tbody>
+</table>  
